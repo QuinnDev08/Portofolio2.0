@@ -1,0 +1,12 @@
+#main-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-title-text {
+    width: 40%;
+    font-size: 3.5rem;
+    color: #ffff;
+}

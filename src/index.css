@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #983628;
+    --secondary-color: #ffffff;
+    --tertiary-color: #000000;
+    --header-font: "Anime";
+    --body-font: "Anime";
+}
+
+@font-face {
+    font-family: "Anime";
+    src: local("go3v2"),
+      url("./fonts/go3v2.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+body {
+    font-family: var(--body-font);
+    background: linear-gradient(135deg, #983628, #4a90a4);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}

@@ -1,8 +1,10 @@
+import "./main_title.css"
 
 function Main_title() {
   return (
-    <div>
-      <h1>React App</h1>
+    <div id="main-title-containerS">
+      <h1 id="main-title-text">I'm Quinn Otto and
+      I am a Web Developer! And I create interactive websites!</h1>
     </div>
   );
 }
